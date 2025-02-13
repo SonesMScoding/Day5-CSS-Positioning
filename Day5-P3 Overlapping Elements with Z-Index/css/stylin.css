@@ -1,0 +1,40 @@
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+div{
+    position:absolute;
+    height: 100px;
+    width: 50px;
+    border: 2px solid black;
+    background-color: bisque;
+}
+
+
+.box1{
+    top: 100px;
+    left: 100px;
+    z-index: 3;
+}
+
+.box2{
+    top: 120px;
+    left: 120px;
+    z-index: 2;
+}
+
+.box3{
+    top: 140px;
+    left: 140px;
+    z-index: 1;
+}
+
+footer{
+    position: fixed;
+    height: 50px;
+    bottom: 300px;
+    margin-bottom: 100px;
+}

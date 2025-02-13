@@ -1,0 +1,12 @@
+.container{
+    position: relative;
+    height: 700px;
+    background-color: antiquewhite;
+}
+
+.child{
+    position: absolute;
+    top: 30px;
+    left: 50px;
+    background-color: rgba(95, 158, 160, 0.381);
+}

@@ -1,0 +1,50 @@
+
+h1{
+    margin-bottom: 50px;
+top: 10px;
+}
+.box-static{
+    margin-bottom: 10px;
+    background-color: beige;
+    padding: 20px;
+}
+
+.box-relative{
+    background-color: beige;
+    padding: 20px;
+    position: relative;
+    top: 10px;
+    left: 20px;
+    margin-bottom: 20px;
+}
+
+/* Absolute Stylin */
+
+.container{
+        position: relative;
+        height: 1000px;
+        background-color: rgb(204, 236, 226);
+        margin-bottom: 10px;
+
+}
+
+.box-absolute{
+    position: absolute;
+    background-color: beige;
+    top:50px;
+    left: 50px;
+    padding: 20px;
+
+}
+
+/* Fixed Stylinng */
+
+.box-fixed{
+    position: fixed;
+    background-color: rgba(232, 220, 245, 0.523);
+    top: 10px;
+    right: 10px;
+    padding: 20px;
+    margin-bottom: 10px;
+    border: 2px solid black;
+}

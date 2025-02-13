@@ -1,0 +1,45 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body{
+    margin: 20px;
+}
+
+header{
+    position: fixed;
+    height: 50px;
+    z-index: 1;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+main {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    position:relative;
+    top: 450px;
+    height: 500px;
+}
+
+footer{
+    position: fixed;
+    height: 50px;
+    bottom: 0;
+    margin-bottom: 100px;
+}
